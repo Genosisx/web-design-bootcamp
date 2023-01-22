@@ -1,11 +1,11 @@
-Figma link: [https://www.figma.com/community/file/1198844262190506688](https://www.figma.com/community/file/1198844262190506688)
+Figma link: [Figma website design ](https://www.figma.com/community/file/1198844262190506688)
 
-Semantics: [https://developer.mozilla.org/en-US/docs/Glossary/Semantics](https://developer.mozilla.org/en-US/docs/Glossary/Semantics)
+Semantics: [Glossary of the semantics](https://developer.mozilla.org/en-US/docs/Glossary/Semantics)
 
-CSS Units: [https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#numbers_lengths_and_percentages](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#numbers_lengths_and_percentages)
+CSS Units: [Learn about the CSS units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#numbers_lengths_and_percentages)
 
-CSS Display: [https://developer.mozilla.org/en-US/docs/Web/CSS/display](https://developer.mozilla.org/en-US/docs/Web/CSS/display)
+CSS Display: [Learn about CSS display property](https://developer.mozilla.org/en-US/docs/Web/CSS/display)
 
-CSS Position: [https://developer.mozilla.org/en-US/docs/Web/CSS/position](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
+CSS Position: [Learn about CSS position property](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
 
-CSS z-index: [https://developer.mozilla.org/en-US/docs/Web/CSS/z-index](https://developer.mozilla.org/en-US/docs/Web/CSS/z-index)
+CSS z-index: [Learn about CSS z-index property](https://developer.mozilla.org/en-US/docs/Web/CSS/z-index)
