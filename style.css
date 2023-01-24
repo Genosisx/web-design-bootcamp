@@ -49,6 +49,9 @@ header {
     border-radius: 99999px;
     cursor: pointer;
 }
+.hamburger {
+    display: hidden;
+}
 .hero {
     display: flex;
     width: 100%;
@@ -178,4 +181,209 @@ header {
     text-align: center;
     margin: 0 1rem;
     font-size: 0.9rem;
+}
+
+@media (max-width: 900px) {
+    .nav {
+        display: none;
+    }
+    header {
+        padding: 1rem 1rem;
+    }
+    .logo {
+        font-size: 1.7rem;
+    }
+    .signup {
+        font-size: 0.9rem;
+    }
+    .hamburger {
+        display: block;
+    }
+    .hero {
+        flex-direction: column;
+    }
+    .hero div {
+        width: 100%;
+        padding: 0 1rem;
+        margin: 1rem 0;
+    }
+    .hero h1 {
+        font-size: 2.5rem;
+        margin-right: 1rem;
+    }
+    .hero p {
+        margin-right: 1rem;
+    }
+    .heroButtons {
+        flex-direction: row;
+        padding: 0;
+        flex-wrap: wrap;
+    }
+    #getStarted {
+        width: 10rem;
+        font-size: 0.9rem;
+    }
+    #orderNow {
+        width: 10rem;
+        font-size: 0.9rem;
+    }
+
+    .pizza1 {
+        border-radius: 2rem;        
+    }
+
+    .pizzaCards {
+        font-size: 0.9rem;
+        padding: 0.8rem 1.5rem;
+    }
+
+    .egg{
+    right: 0;        
+    }
+    .karela {
+        left:-10%;
+    }
+    .burgerPizzaCard {
+        display: none;
+    }
+}
+
+.scrollMenu {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    gap: 2rem;
+}
+.scrollMenu .menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.scrollMenu .menu h2 {
+    font-size: 2rem;
+}
+
+.scrollMenu .menu .buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 18rem;
+    gap: 1rem;
+    overflow: scroll;
+}
+
+.scrollMenu .menu .buttons button {
+    background-color: #F5F5F5;
+    border: none;
+    width: 100%;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    padding: 1rem 0;
+
+}
+
+.scrollMenu .menu .buttons button span {
+    display: flex;
+    width: 10rem;
+    text-align: left;
+    align-items: center;
+    justify-content: left;
+    margin: 0 auto;
+}
+
+#selectedButton{
+    background-color: #181818;
+    color: white;
+}
+
+.scrollMenu .menu .buttons span p {
+    margin: 0;
+}
+
+.scrollMenu .menu .buttons span p:nth-child(1) {
+    background-color: #FF6F1E;
+    color: white;
+    padding: 0.5rem 0.9rem;
+    border-radius: 999px;
+    margin-right: 1rem;
+}
+
+.scrollMenu .menuImage {
+    width: 100%;
+
+
+}
+
+.menuImage {
+    position: relative;
+
+}
+
+.menuImage img {
+    width: 90vw;
+    height: 90vw;
+    object-fit: cover;
+    border-radius: 2rem;
+}
+img {
+    max-width: 100%;
+
+}
+
+.menuImage .filter {
+    background-image: linear-gradient(180.15deg, rgba(0, 0, 0, 0.14) 65.64%, #000000 99.87%);
+    position: absolute;
+    border-radius: 2rem;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.menuImage .info {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 1.3rem;
+    align-items: center;
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+
+}
+
+
+.menuImage .info span p {
+    margin: 0.5rem 0;
+}
+
+.menuImage .info span:nth-child(2)  {
+    border: 2px solid #fff;
+    border-radius: 999px;
+    height: min-content;
+    padding: 0.5rem 0.8rem;
+    
+}
+
+@media (min-width: 900px) {
+    .scrollMenu {
+        flex-direction: row;
+        margin-top: 7rem;
+        gap: 5rem;
+    }
+
+    .scrollMenu .menu h2 {
+        font-size: 3rem;
+    }
+
+    .menuImage img {
+        width: 50vw;
+        height: 40vw;
+    }
+
 }
