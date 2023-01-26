@@ -12,6 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link href="/output.css" rel="stylesheet" />
   </head>
   <body>
     <main>
@@ -30,7 +31,9 @@
       </header>
       <section class="hero">
         <div class="heroChild1">
-          <h1>Our food site makes it easy to find local food</h1>
+          <h1 class="font-bold">
+            Our food site makes it easy to find local food
+          </h1>
           <p>
             Imagine you don’t need a diet because we provide healthy and
             delicious toad for you! We are providing the best food delivery
@@ -43,14 +46,14 @@
         </div>
         <div class="heroChild2">
           <image src="/pizza1.jpg" width="500" height="601" class="pizza1" />
-          <span class="pizzaCards karela">
+          <span class="pizzaCards karela !top-[40%]">
             <image src="/karela.jpg" width="60" height="60" />
             <span>
               <p>Tom/Mirk 7 oriebal</p>
               <p>UM, Pa pi ka</p>
             </span>
           </span>
-          <span class="pizzaCards egg">
+          <span class="pizzaCards egg !top-[10%]">
             <image src="/egg.jpg" width="60" height="60" />
             <span>
               <p>Continue Professional</p>
@@ -70,7 +73,7 @@
     </main>
     <section class="scrollMenu">
       <div class="menu">
-        <h2>Menu That Always Make You Fall In Love</h2>
+        <h2 class="font-bold mb-8">Menu That Always Make You Fall In Love</h2>
         <div class="buttons">
           <button id="selectedButton">
             <span>
@@ -104,10 +107,10 @@
           </button>
         </div>
       </div>
-      <div class="menuImage" >
+      <div class="menuImage">
         <img width="636" height="593" src="burgerTower.jpg" />
-        <div class="filter" ></div>
-        <div class="info" >
+        <div class="filter"></div>
+        <div class="info">
           <span>
             <p>Burger</p>
             <p>₹150</p>
@@ -115,6 +118,149 @@
           <span> + </span>
         </div>
       </div>
+    </section>
+    <section class="my-10">
+      <div class="flex flex-col text-center text-3xl font-bold">
+        <h2>Our Popular Update</h2>
+        <h3>New Foods</h3>
+      </div>
+      <div class="flex flex-col items-center gap-4 mt-6 xl:flex-row mx-10">
+        <div class="w-4/5 rounded-3xl overflow-hidden border border-[#D2D2D2]">
+          <img
+            width="475"
+            height="284"
+            src="/nonVegPlatter.jpg"
+            class="w-full rounded-3xl h-52 object-cover"
+          />
+          <div class="w-4/5 mx-auto my-6 space-y-4">
+            <div class="space-y-1">
+              <p class="font-bold text-xl">Bento-Erikben Mkunchi</p>
+              <p class="text-sm text-secondary">
+                Lorem ipsum dolor sit amet consectetur. Auctor vestibulum
+                dignissim massa tortor. Lorem ipsum dolor sit amet consectetur.
+                Auctor vestibulum.
+              </p>
+            </div>
+            <div class="flex items-center justify-between">
+              <p class="font-bold text-2xl">₹150</p>
+              <button class="bg-primary p-2 rounded-2xl">
+                <svg
+                  width="42"
+                  height="43"
+                  viewBox="0 0 42 43"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M13.6 21.5H28.4M21 28.9V14.1M21 40C31.175 40 39.5 31.675 39.5 21.5C39.5 11.325 31.175 3 21 3C10.825 3 2.5 11.325 2.5 21.5C2.5 31.675 10.825 40 21 40Z"
+                    stroke="black"
+                    stroke-width="4.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="w-4/5 rounded-3xl overflow-hidden border border-[#D2D2D2]">
+          <img
+            width="475"
+            height="284"
+            src="/nonVegPlatter.jpg"
+            class="w-full rounded-3xl h-52 object-cover"
+          />
+          <div class="w-4/5 mx-auto my-6 space-y-4">
+            <div class="space-y-1">
+              <p class="font-bold text-xl">Bento-Erikben Mkunchi</p>
+              <p class="text-sm text-secondary">
+                Lorem ipsum dolor sit amet consectetur. Auctor vestibulum
+                dignissim massa tortor. Lorem ipsum dolor sit amet consectetur.
+                Auctor vestibulum.
+              </p>
+            </div>
+            <div class="flex items-center justify-between">
+              <p class="font-bold text-2xl">₹150</p>
+              <button class="bg-primary p-2 rounded-2xl">
+                <svg
+                  width="42"
+                  height="43"
+                  viewBox="0 0 42 43"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M13.6 21.5H28.4M21 28.9V14.1M21 40C31.175 40 39.5 31.675 39.5 21.5C39.5 11.325 31.175 3 21 3C10.825 3 2.5 11.325 2.5 21.5C2.5 31.675 10.825 40 21 40Z"
+                    stroke="black"
+                    stroke-width="4.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="w-4/5 rounded-3xl overflow-hidden border border-[#D2D2D2]">
+          <img
+            width="475"
+            height="284"
+            src="/nonVegPlatter.jpg"
+            class="w-full rounded-3xl h-52 object-cover"
+          />
+          <div class="w-4/5 mx-auto my-6 space-y-4">
+            <div class="space-y-1">
+              <p class="font-bold text-xl">Bento-Erikben Mkunchi</p>
+              <p class="text-sm text-secondary">
+                Lorem ipsum dolor sit amet consectetur. Auctor vestibulum
+                dignissim massa tortor. Lorem ipsum dolor sit amet consectetur.
+                Auctor vestibulum.
+              </p>
+            </div>
+            <div class="flex items-center justify-between">
+              <p class="font-bold text-2xl">₹150</p>
+              <button class="bg-primary p-2 rounded-2xl">
+                <svg
+                  width="42"
+                  height="43"
+                  viewBox="0 0 42 43"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M13.6 21.5H28.4M21 28.9V14.1M21 40C31.175 40 39.5 31.675 39.5 21.5C39.5 11.325 31.175 3 21 3C10.825 3 2.5 11.325 2.5 21.5C2.5 31.675 10.825 40 21 40Z"
+                    stroke="black"
+                    stroke-width="4.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="bg-[#1E1E1E] text-white rounded-[2rem] flex flex-col py-14 px-5 text-center w-[90%] mx-auto space-y-8"
+    >
+      <h2 class="text-3xl font-bold">Subscribe to our Newletter</h2>
+      <form
+        class="rounded-full border border-secondary flex  justify-between pl-4  w-full max-w-3xl mx-auto xl:text-lg 
+        hover:ring-4 ring-gray-600 focus-within:ring-white active:scale-90 " 
+      >
+        <input
+          type="text"
+          placeholder="Enter Email ID"
+          class="bg-transparent outline-none w-[70%] xl:py-1 "
+        />
+        <button
+          type="submit"
+          class="bg-[#4A4A4A] block px-2 rounded-full flex-1 w-[30%] xl:py-1"
+        >
+          Submit
+        </button>
+      </form>
     </section>
   </body>
 </html>
